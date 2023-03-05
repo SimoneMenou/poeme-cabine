@@ -1,0 +1,70 @@
+$black : white;
+$purple : red;
+$font : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$font_size_small:50px;
+$font_size_medium:70px;
+$font_size_big:90px;
+$font_size_button:20px;
+$line-height: 0%;
+$width_content :50vw;
+$height_content : 50vh;
+
+body
+{
+    background-color: black;
+}
+main{
+    padding-top: 10%;
+}
+.cadre 
+{
+    
+    padding-left: 20vw;
+    line-height: $line-height;
+    font-family: $font;
+    
+    #poem1 {
+        font-size: $font_size_medium;
+        color: $black;
+    }
+    #poem2 {
+        font-size: $font_size_big;
+        color: $purple;
+    }
+    #poem3 {
+        font-size: $font_size_small;
+        color: $black;
+    }
+    #poem4{
+        font-size: $font_size_medium;
+        color: $purple;
+    }
+    #poem5 {
+        font-size: 15px;
+        color:$black;
+    }
+}
+
+h1 {
+    color: $black;
+    font-size: $font_size_small;
+    font-family: $font;
+    margin-left: 20%;
+}
+#btn 
+    {
+    background-color: $purple;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 20vw; 
+  
+    }
+#print {
+    background-color: $purple;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+   
+
+}
